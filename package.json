@@ -1,0 +1,22 @@
+{
+   "name": "@springsheep/zp-create-cli",
+   "version": "0.0.1-beta",
+   "description": "基于原生库编写的 cli,包含了inquirer download-git-repo chalk等",
+   "main": "index.js",
+   "scripts": {
+      "test": "node ./index.js"
+   },
+   "bin": {
+      "zp-create-cli": "./index.js"
+   },
+   "author": "zhangpeng",
+   "license": "ISC",
+   "devDependencies": {
+      "chalk": "^4.1.2",
+      "commander": "^9.3.0",
+      "download-git-repo": "^3.0.2",
+      "inquirer": "^8.2.4",
+      "log-symbols": "^5.1.0",
+      "ora": "^5.4.1"
+   }
+}
